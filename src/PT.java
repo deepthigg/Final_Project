@@ -11,16 +11,17 @@ public class PT
 		String response= kb.next();
 		
 		String yesresponse = "yes";
-		
+
 		if (response.equals(yesresponse))
 		{
 			System.out.println("You will be given a series of scenarios and asked to pick an option regarding what you would do in that situation.");
-			System.out.println("At the end of the quiz you will find your results, stats, and an expalnation.");
+			System.out.println("At the end of the quiz you will find your results, stats, and an explanation.");
 		}
 		else
 		{
 			System.out.println("Your Loss");
 		}
+
 		System.out.println("What wil you first do....." + 
 						     "\n 1. Confront the robber directly" +
 							 "\n 2. Go to the crime scene and get solid evidence " );					 
