@@ -15,16 +15,18 @@ public class PT
 		if (response.equals(yesresponse))
 		{
 			System.out.println("You will be given a series of scenarios and asked to pick an option regarding what you would do in that situation.");
-			System.out.println("At the end of the quiz you will find your results, stats, and an explanation.");
+			System.out.println("At the end of the quiz you will find your results, stats, and an explanation. ");
+			System.out.println("Let us begin!");
 		}
 		else
 		{
 			System.out.println("Your Loss");
 		}
 
-		System.out.println("What wil you first do....." + 
-						     "\n 1. Confront the robber directly" +
-							 "\n 2. Go to the crime scene and get solid evidence " );					 
+		System.out.println("+You are on ypur way home and as you come closer to your house, you see smoke coming from your neighbors house, and you hear the wails for your neighbours. You realize that there is afire and your neighbours are trapped. What do you do?  " +
+						     "\n 1. run into your house and gather your belongings and flee in case the fire comes to your house" +
+							 "\n 2. call the police and wait in front of the neighbours house till they arrive " +
+							 "\n 3. call the police then run into the neighbors house in hopes of resucing someone");
 		int choice= kb.nextInt();
 			 {
 				if (choice ==1)
