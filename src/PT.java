@@ -17,63 +17,90 @@ public class PT
 			System.out.println("You will be given a series of scenarios and asked to pick an option regarding what you would do in that situation.");
 			System.out.println("At the end of the quiz you will find your results, stats, and an explanation. ");
 			System.out.println("Let us begin!");
+
+			System.out.println("You are on your way home and as you come closer to your house, you see smoke coming from your neighbors house, and you hear the wails for your neighbours. You realize that there is afire and your neighbours are trapped. What do you do?  " +
+					"\n 1. run into your house and gather your belongings and flee in case the fire comes to your house" +
+					"\n 2. call the police and wait in front of the neighbours house till they arrive " +
+					"\n 3. call the police then run into the neighbors house in hopes of resucing someone");
+			int choice1 = kb.nextInt();
+
+			System.out.println("You are sitting in a bus and waiting for your stop to come soon. As you sit and wait, you notice an old woman who is struggling to stand with the help of her cane and nobody else seems to notice her struggle. What do you do?" +
+					"\n 4. You look the other way. No one else is helping, why should you?" +
+					"\n 5. You nudge your elbow towards the person sitting next to you and gesture towards the old woman. Hopefully they get the hint." +
+					"\n 6. You get up from your seat and you tell her that she can use your seat.");
+			int choice2 = kb.nextInt();
+
+			System.out.println("Your friends are fighting and you find yourself in between them. You love both of your friends and value both of their friendship equally, but yuo also feel that one of your friends is on th eright side of the argument. What would you do?" +
+					"\n 7. You are annoyed by all this fighting and go find new friends." +
+					"\n 8. You decide to stay true to yourself and support the friend whose side you believe is more reasonable" +
+					"\n 9. You remain neutral in the argument and decide to stay out of the fight");
+
+			int choice3 = kb.nextInt();
+
+			System.out.println("You are taking a really important test which took you weeks to study for. You are close to finishing when you notice the person next to you look in the sleeve of their jacket and quickly covering up when the proctor walks by. Then with your detective skills you peice together that they are...cheating! What do you do?" +
+					"\n 10. You just pat yourself on the back for your great detective skills and leave it at that. You remain silent." +
+					"\n 11. You decide to finish the test then talk to the proctor after everyone leaves" +
+					"\n 12 You immediately jump up from your seat and shout out that the person next to you is cheating. Hopefully the proctor is not deaf.");
+
+			int choice4 = kb.nextInt();
+
+
+			System.out.println(" You are visited by the fairy godmother, and are granted the choice to do anything you want in your life without the fear of responsibility or debt. What would you do? " +
+					"\n 13.Travel the world and live a nomad lifestyle" +
+					"\n 14. stay at home and read a lot of books." +
+					"\n 15. Become a doctor or social worker to help all the underprivileged and sick people.");
+
+			int choice5 = kb.nextInt();
+
+			if(choice1 ==1 )
+			{
+				if( choice2 ==4)
+				{
+					if( choice3 ==7)
+					{
+						if( choice4 ==10)
+						{
+							if ( choice5 ==13 )
+							{
+								System.out.println(" You are quite a vicious person, and have a mean streak. You do what you want and do not let anyone dictate how you would like to live your life. At the same time you are a courageous person who is willing to stand yuo for themselves");
+							}
+
+
+						}
+						else
+						{
+							System.out.println("    ");
+						}
+
+					}
+					else
+					{
+						System.out.println("    ");
+					}
+					}
+
+
+				}
+				else
+				{
+					System.out.println("    ");
+				}
+			}
+			else if ( choice1 == 2)
+
+
+
+
+
+
 		}
 		else
 		{
 			System.out.println("Your Loss");
 		}
 
-		System.out.println("+You are on ypur way home and as you come closer to your house, you see smoke coming from your neighbors house, and you hear the wails for your neighbours. You realize that there is afire and your neighbours are trapped. What do you do?  " +
-						     "\n 1. run into your house and gather your belongings and flee in case the fire comes to your house" +
-							 "\n 2. call the police and wait in front of the neighbours house till they arrive " +
-							 "\n 3. call the police then run into the neighbors house in hopes of resucing someone");
-		int choice= kb.nextInt();
-			 {
-				if (choice ==1)
-				{
-					System.out.println("You find the robber in an abandoned warehouse.");
-					System.out.println("What will you do next....." +
-										"\n 3.Ask the robber what his intentions were" +
-										"\n 4. Handcuff the robber");
-					int choice2= kb.nextInt();
-					
-					//print: something happens
-					//prompt for new choice
-					//user input for choice value (use nextInt())
-					
-					if (choice == 3 )
-					{
-						System.out.println("Th robber tells you his intentions and the police arrest him.YOu are a hero!");
-						
-					}
-						
-					else
-					{
-						System.out.println("The police arrive and take him for interrogation. You are a hero!");
-					}
-				}
-				else
-				{
-					System.out.println(" Yuo realize that the evidence shows that the robbery did not occur.");
-					System.out.println("What will you do next....." +
-										"\n 5.Confront the the store owner and ask him his intentions" +
-										"\n 6. Handcuff the store owner ");
-					int choice3= kb.nextInt();
-					//print: something happens
-					//prompt for new choice
-					//user input for choice value (use nextInt())
-					
-					if (choice == 5 )
-					{
-						System.out.println("The owner confesses his plot to get insurance money and the police take him in. You are a hero.");
-					}
-						
-					else
-					{
-						System.out.println("The police arrive and take him for interrogation. You are a hero!");
-					}						
-				}					
-			}
+
+
 		
 	
 	
