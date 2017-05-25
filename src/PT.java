@@ -123,7 +123,7 @@ public class PT
 						{
 							if(choice5 == 14)
 							{
-								System.out.println("al clam but quite calm");
+								System.out.println("all clam but quite timid");
 							}
 							else
 							{
@@ -131,6 +131,10 @@ public class PT
 							}
 
 
+						}
+						else
+						{
+							return;
 						}
 
 					}
@@ -144,16 +148,80 @@ public class PT
 					return;
 				}
 			}
+				if(choice2 == 4 )
+				{
+					if (choice3 == 7)
+					{
+						if(choice4 == 10)
+						{
+							if(choice5 == 13)
+							{
+								System.out.println("You are quite vicious!");
+							}
+							else
+							{
+								return;
+							}
+						}
+						else
+						{
+							return;
+						}
+					}
+					else
+					{
+						return;
+					}
+				}
+				else
+				{
+					return;
+				}
+
+			}
+			else
+			{
+				return;
+			}
+
+			else if(choice1 == 3)
+			{
+				if(choice2 == 6)
+				{
+					if(choice3 == 9)
+					{
+						if(choice4 == 12)
+						{
+							if(choice == 15)
+							{
+								System.out.println("You are really nice!");
+							}
+							else
+							{
+								return;
+							}
+						}
+						else
+						{
+							return;
+						}
+					}
+					else
+					{
+						return;
+					}
+				}
+				else
+				{
+					return;
+				}
+			}
+			else
+			{
+				return;
+			}
 
 
-
-
-
-
-
-
-
-		}
 		else
 		{
 			System.out.println("Your Loss");
