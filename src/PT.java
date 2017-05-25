@@ -69,24 +69,84 @@ public class PT
 						}
 						else
 						{
-							System.out.println("    ");
+							return;
 						}
 
 					}
 					else
 					{
-						System.out.println("    ");
+						return;
 					}
 					}
 
 
+				}
+				else if(choice2 == 4)
+				{
+					if (choice3 ==8)
+					{
+						if(choice4 ==12)
+						{
+							if(choice5 ==14)
+							{
+								System.out.println(" moslty clam")
+							}
+							else {
+								return;
+							}
+
+
+
+						}
+						else {
+							return;
+						}
+
+
+					}
+					else {
+						return;
+					}
 				}
 				else
 				{
-					System.out.println("    ");
+					return;
 				}
 			}
 			else if ( choice1 == 2)
+			{
+				if(choice2 == 5 )
+				{
+					if(choice3 == 8 )
+					{
+						if(choice4 == 11)
+						{
+							if(choice5 == 14)
+							{
+								System.out.println("al clam but quite calm");
+							}
+							else
+							{
+								return;
+							}
+
+
+						}
+
+					}
+					else
+					{
+						return;
+					}
+				}
+				else
+				{
+					return;
+				}
+			}
+
+
+
 
 
 
