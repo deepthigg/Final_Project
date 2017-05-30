@@ -7,10 +7,10 @@ public class PT
 		System.out.println("Hello! Have you ever wondered who you really are?");
 		System.out.println("I am not talking about your conspiracy theory that you are a ninja, but rather about what components are a part of your personality. ");
 		System.out.println("Well now you can find out! Using this quiz that RD has designed you can find out who you truly are.");
-		System.out.println("Are you ready to find out ?");
-		String response= kb.next();
-		
-		String yesresponse = "yes";
+		System.out.println("Are you ready to find out (Yes/No) ?");
+		String response = kb.next();
+
+		String yesresponse = "Yes";
 
 		if (response.equals(yesresponse))
 		{
@@ -52,185 +52,157 @@ public class PT
 
 			int choice5 = kb.nextInt();
 
-			if(choice1 ==1 )
+			System.out.println("Choice1: " + choice1);
+			System.out.println("Choice2: " + choice2);
+			System.out.println("Choice3: " + choice3);
+			System.out.println("Choice4: " + choice4);
+			System.out.println("Choice5: " + choice5);
+
+			if(choice1 == 1 && choice2 == 4 && choice3 == 7 && choice4 == 10 && choice5 == 13)
 			{
-				if( choice2 ==4)
-				{
-					if( choice3 ==7)
-					{
-						if( choice4 ==10)
-						{
-							if ( choice5 ==13 )
-							{
-								System.out.println(" You are quite a vicious person, and have a mean streak. You do what you want and do not let anyone dictate how you would like to live your life. At the same time you are a courageous person who is willing to stand yuo for themselves");
-							}
-
-
-						}
-						else
-						{
-							return;
-						}
-
-					}
-					else
-					{
-						return;
-					}
-					}
-
-
-				}
-				else if(choice2 == 4)
-				{
-					if (choice3 ==8)
-					{
-						if(choice4 ==12)
-						{
-							if(choice5 ==14)
-							{
-								System.out.println(" moslty clam")
-							}
-							else {
-								return;
-							}
-
-
-
-						}
-						else {
-							return;
-						}
-
-
-					}
-					else {
-						return;
-					}
-				}
-				else
-				{
-					return;
-				}
+				//print....
 			}
-			else if ( choice1 == 2)
-			{
-				if(choice2 == 5 )
-				{
-					if(choice3 == 8 )
-					{
-						if(choice4 == 11)
-						{
-							if(choice5 == 14)
-							{
-								System.out.println("all clam but quite timid");
-							}
-							else
-							{
-								return;
-							}
-
-
-						}
-						else
-						{
-							return;
-						}
-
-					}
-					else
-					{
-						return;
-					}
-				}
-				else
-				{
-					return;
-				}
-			}
-				if(choice2 == 4 )
+			else
+				if (choice2 == 4)
 				{
 					if (choice3 == 7)
 					{
-						if(choice4 == 10)
+						if (choice4 == 10)
 						{
-							if(choice5 == 13)
+							if (choice5 == 13)
+								System.out.println(" You are quite a vicious person, and have a mean streak. You do what you want and do not let anyone dictate how you would like to live your life. At the same time you are a courageous person who is willing to stand yuo for themselves");
+						}
+					}
+					else if (choice3 == 8)
+					{
+						if (choice4 == 12)
+						{
+							if (choice5 == 13)
+								System.out.println("You are on the adventurous side of life. Yet  you have a complex personality. Sometimes you are very timid and are going against humanity, but for the most part you are kind and outgoing.");
+
+						}
+
+					}
+
+				}
+				else if (choice2 == 5)
+				{
+					if (choice3 == 8)
+					{
+						if (choice4 == 12)
+						{
+							if (choice5 == 14)
+								System.out.println(" moslty clam");
+
+						}
+
+					}
+
+				}
+
+
+			}
+
+			else if( choice1 ==2)
+			{
+
+				if (choice2 == 6)
+				{
+					if (choice3 == 7)
+					{
+						if (choice4 == 11)
+						{
+							if (choice5 == 14)
+							{
+								System.out.println("all clam but quite timid");
+							}
+
+						}
+
+
+					}
+
+				}
+
+				else if (choice2 == 4)
+				{
+					if (choice3 == 7)
+					{
+						if (choice4 == 10)
+						{
+							if (choice5 == 13)
 							{
 								System.out.println("You are quite vicious!");
 							}
-							else
-							{
-								return;
-							}
+
 						}
-						else
-						{
-							return;
-						}
+
 					}
-					else
-					{
-						return;
-					}
-				}
-				else
-				{
-					return;
+
 				}
 
 			}
-			else
-			{
-				return;
-			}
 
-			else if(choice1 == 3)
+			else if (choice1 == 3)
 			{
-				if(choice2 == 6)
+				if (choice2 == 6)
 				{
-					if(choice3 == 9)
+					if (choice3 == 9)
 					{
-						if(choice4 == 12)
+						if (choice4 == 12)
 						{
-							if(choice == 15)
+							if (choice5 == 15)
 							{
 								System.out.println("You are really nice!");
 							}
-							else
-							{
-								return;
-							}
+
 						}
-						else
-						{
-							return;
-						}
+
 					}
-					else
-					{
-						return;
-					}
+
 				}
-				else
+				else if (choice2 == 5)
 				{
-					return;
+					if (choice3 == 8)
+					{
+						if (choice4 == 12)
+						{
+							if (choice5 == 15)
+							{
+								System.out.println("Moslty nice but still needs work ");
+							}
+
+						}
+
+					}
+					else if (choice3 == 9)
+					{
+						if (choice4 == 11)
+						{
+							if (choice5 == 15)
+							{
+								System.out.println("You are a strange person. You do like to help people but at the comfort of your own time.");
+							}
+
+						}
+
+					}
+
 				}
+
 			}
 			else
-			{
-				return;
-			}
-
-
-		else
-		{
-			System.out.println("Your Loss");
+				System.out.println(" Yuo are quite a neutral person, There is no on personality that solely identifies you. You are kind, calm, but also can be courageous and cold hearted when needed to. ");
 		}
+		else
+			System.out.println("Your Loss");
+
+	}
+}
 
 
 
 		
 	
 	
-	}
-}
+
