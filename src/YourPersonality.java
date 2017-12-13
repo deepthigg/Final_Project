@@ -1,5 +1,5 @@
 package sample;
-
+// To create an interactive Personality test using javafx and objected oriented mmethodology.
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
